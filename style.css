@@ -2,8 +2,175 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: #1f2937;
+}
+
+section {
+  padding: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 21px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  color: #f9faf8;
+  font-weight: 500;
+}
+
+.gap--2 {
+  gap: 2em;
+}
+
+/* HEADER */
+.header {
+  background-color: #1f2937;
+  padding: 24px;
+  position: sticky;
+  top: 0;
+}
+
+.main-nav {
+  justify-content: space-between;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 700;
+}
+
+.main-nav-lists {
+  list-style: none;
+  gap: 18px;
+}
+
+/* HERO SECTION */
+.section-hero {
+  background-color: #1f2937;
+  height: 80vh;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  margin-bottom: 12px;
+}
+
+.hero-secondary-text {
+  color: #e5e7eb;
+  margin-bottom: 16px;
+}
+
+.placeholder-image {
+  min-width: 50%;
+  min-height: 100%;
+  background-color: #e5e7eb80;
+}
+
+/* FEATURES SECTION */
+.features-header-text {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.features-container {
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  gap: 34px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.feature-icon {
+  width: 100%;
+  height: 128px;
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+}
+
+.feature-description {
+  text-align: center;
+}
+
+/* TESTIMONIALS SECTION */
+.section-testimonials {
+  background-color: #e5e7e5;
+}
+.quote-text {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 36px;
+}
+.quote-author {
+  text-align: end;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+/* CTA SECTION */
+.card-cta {
+  background-color: #3882f6;
+  width: 1000px;
+  padding: 44px 64px;
+  border-radius: 9px;
+}
+
+.card-cta > .flex {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-cta {
+  border: #f9faf8 2px solid;
+}
+
+.cta-texts {
+  color: #f9faf8;
+}
+
+.cta-main-header {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #1f2937;
+  padding: 32px;
+  text-align: center;
+  color: #f9faf8;
 }
